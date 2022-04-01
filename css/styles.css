@@ -9,6 +9,7 @@ font-family: 'Roboto', sans-serif;
 }
 /* hader */
 .page-header { 
+
     background: #FFFFFF;
     height: 80px;
     width: 1600px;
@@ -77,8 +78,8 @@ color: black;
 line-height: 1.6;
 }
 .button-secondary{
-    color: var(--primary-text-color);
-    background-color:  var(--acent-text-color);
+    color: var(--title-text-color);
+    background-color:  var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
     font-size:16px;
     line-height:1.6;
