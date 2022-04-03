@@ -57,6 +57,7 @@ letter-spacing: 0.02em;
 
 .link-contacts{
     color: var(--acent-text-color);
+    font-style: normal;
 }
 
 .link-contacts:hover{ 
@@ -67,6 +68,7 @@ color: var(--primary-bg-color);
 }
 .contacts-tel{
 color: var(--acent-text-color);
+font-style: normal;
 }
 .contacts-tel:hover{
     color: var(--primary-bg-color);
@@ -199,15 +201,20 @@ color: var(--acent-text-color);
 .page-footer{
     background-color: var(--title-text-color);
 }
+
+
 .location{
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: var(--primary-text-color)
+color: var(--primary-text-color);
+font-style: normal;
 }
 .location:hover{
     color: var(--primary-bg-color);
+    
 }
 .location:focus{
     color: var(--title-text-color);
 }
+
