@@ -10,8 +10,8 @@ font-family: 'Roboto', sans-serif;
 color: var(--title-text-color);
 font-size: 14px;
 letter-spacing: 0.3em;
-background:var(--primary-pg-color);
-text-decoration: none;
+background:var(--primary-text-color)
+
 }
 
 /* hader */
@@ -48,26 +48,28 @@ text-decoration: none;
     text-decoration: none;
     }
 /* navigation */
-.site-nav{
+.site{
     color: var(--title-text-color);
 }
-.site-nav :hover {
- color: var(--acent-text-color);   
+.site :hover {
+ color: var(--primary-bg-color);   
 }
-.site-nav :focus{
-color: var(--acent-text-color);
+.site:focus{
+color: var(--primary-bg-color);
 }
 .link{
-text-decoration: none;
+font-weight: 500;
 color: var(--title-text-color);
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
+text-decoration: none;
 }
 .link-courrent{
 color: var(--primary-bg-color);
+font-weight: 500;
 font-size: 14px;
-line-height: 1,14px;
+line-height: 1.14px;
 letter-spacing: 0.02em;
 text-decoration: none;
 }
@@ -94,7 +96,7 @@ letter-spacing: 0.02em;
 color: var(--primary-bg-color);
 }
 .link-contacts:focus{
-    color: var(--title-text-color);
+color: var(--primary-bg-color);   
 }
 .contacts-tel{
 text-decoration: none;
@@ -105,7 +107,7 @@ font-style: normal;
     color: var(--primary-bg-color);
 }
 .contacts-tel:focus{
-    color: var(--title-text-color);
+    color: var(--primary-bg-color);
 }
 /* hero */
 .hero{
@@ -125,13 +127,8 @@ text-transform: uppercase;
 background-color: var(--primary-bg-color);
 border-radius: 4px;
 }
-.button:hover{
-background-color: var(--primary-pg-color);
-}
 
-.button:focus{
-color: var(--primary-pg-color);
-}
+
 .button-text{
 font-style: normal;
 font-weight: 700;
@@ -144,12 +141,6 @@ letter-spacing: 0.06em;
 color: var(--primary-text-color);
 }
 
-.button-text:hover{
-color: var(--primary-bg-color)
-}
-.button-text:focus{
-    color: var(--primary-text-color);
-}
 
 /* filter */
 
@@ -200,33 +191,36 @@ color: var(--primary-text-color);
 }
 
 /* приимущества */
-.section-title{
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.03em;
-color: var(--title-text-color);
-text-transform: uppercase;
+.advantages-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    text-transform: uppercase;
 }
 
-.section-p{
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-color: var(--acent-text-color);
+.advantages-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--acent-text-color);
 }
 
-.section-title-port{
-font-style: normal;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-color: var(--title-text-color);
-text-decoration: none;
+.inform-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+    text-decoration: none;
 }
 
-.section-port{
+.inform-port{
     font-style: normal;
     font-size: 16px;
     line-height: 30px;
