@@ -11,9 +11,14 @@ color: var(--title-text-color);
 font-size: 14px;
 letter-spacing: 0.3em;
 background:var(--primary-text-color)
-
 }
 
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+}
 /* hader */
 .page-header { 
     background: var(--primary-text-color);
@@ -74,6 +79,10 @@ letter-spacing: 0.02em;
 text-decoration: none;
 }
 
+.link-courrent:hover:focus{
+    background-color: var(--primary-bg-color);
+    color: var(--primary-bg-color);
+}
 /* contacts */
 .contacts{
 font-size: 14px;
@@ -163,13 +172,17 @@ color: var(--primary-text-color);
 }
    
 
-.button-primary:hover:focus{
+.button-primary:hover{
     background-color: var(--title-text-color);
 }
-.button-secondary:hover:focus{
-    background-color: var(--primary-bg-color);
-    color: var(--acent-text-color);
-    text-decoration: none;
+.button-primary:focus{
+    color: var(--primary-text-color);
+}
+.button-secondary:hover{  
+ color: var(--primary-bg-color);
+}
+.button-secondary:focus{
+    color: var(--primary-bg-color)  
 }
 
 
