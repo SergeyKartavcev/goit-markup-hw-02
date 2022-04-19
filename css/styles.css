@@ -10,7 +10,7 @@ body {
 font-family: 'Roboto', sans-serif;
 color: var(--title-text-color);
 font-size: 14px;
-letter-spacing: 0.3em;
+letter-spacing: 0.03em;
 background:var(--primary-text-color)
 }
 
@@ -23,25 +23,18 @@ button{
 /* hader */
 .page-header { 
     background: var(--primary-text-color);
-    height: 80px;
-    width: 1600px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    display:inline-block
 }
 
 .logo{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--primary-bg-color);
     text-decoration: none;
-    padding: 24px 93px 25px 215px
-    
     }
+
     .logo-part{
     Font-family: 'Raleway';
     font-size: 26px;
@@ -64,8 +57,18 @@ button{
     letter-spacing: 0.02em;
     text-decoration: none;
     }
+
+    
+.link:hover
+{
+color: var(--primary-bg-color);
+}
+
+.link:focus{
+color:var(--primary-bg-color); 
+}
 .link-courrent{
-    color: var(--title-text-color);
+    color: var(--primary-bg-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -75,11 +78,11 @@ button{
     
 .link-courrent:hover
     {
-    color: var(--primary-bg-color);
+    color: var(--title-text-color);
     }
 
 .link-courrent:focus{
-    color: var(--primary-bg-color); 
+    color: var(--title-text-color); 
     }
 
 /* contacts */
